@@ -1,6 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { SubscribeButton } from '.';
-// import { mocked } from 'ts-jest/utils'
 import { signIn, useSession } from 'next-auth/client';
 import { mocked } from 'ts-jest/utils';
 import { useRouter } from 'next/router';
